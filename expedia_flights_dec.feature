@@ -22,7 +22,7 @@ Feature: Expedia Flight Dec
 
   Scenario: testing the yml functionality
     Then user verify the yml functionality works
-@qa
+@Smoke
   Scenario: verify user is warned when searching for flights without entering data in required fields.
     When user click on search button
     Then user should see the following message
